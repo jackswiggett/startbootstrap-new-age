@@ -36,7 +36,7 @@ a:focus {
 }
 hr {
   max-width: 100px;
-  margin: 25px auto 0;
+  margin: 25px auto;
   border-width: 1px;
   border-color: rgba(34, 34, 34, 0.1);
 }
@@ -422,6 +422,7 @@ footer ul li a.active {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
+  margin: 10px 0px;
 }
 .btn-xl {
   padding: 15px 45px;
@@ -447,4 +448,19 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+.marvel-demo {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.marvel-demo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+img.profile {
+  width: 70%;
 }
